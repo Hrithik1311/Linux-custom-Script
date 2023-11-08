@@ -1,0 +1,6 @@
+I want to list all the regular users present on my server through the following command:
+$ internsctl user list
+
+==> command1- $ sudo nano 'internctl user list'
+    command2- $ sudo chnod +x 'internctl\ user\ list'
+    command3- $ ./internctl\ user\ list'

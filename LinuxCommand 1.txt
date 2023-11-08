@@ -1,0 +1,4 @@
+                 Section A
+
+1. I want a manual page of command so that I can see the full documentation of the command.
+==> man internctl

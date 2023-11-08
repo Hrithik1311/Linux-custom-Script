@@ -1,0 +1,18 @@
+Part3 | Advanced Level
+By executing below command I want to get some information about a file
+$ internsctl file getinfo <file-name>
+
+==> $ ./internsctl\file\getinfo hello.text
+-rw=r==r--1 root root 8 nov hello.txt
+
+    $ ./internsctl\file\getinfo -5 hello.text
+9 hello.txt
+ 
+     $ ./internsctl\file\getinfo -p hello.text
+-rw-r--r--
+     
+      $ ./internsctl\file\getinfo -o hello.text
+root
+
+      $ sudo./internsctl\file\getinfo m hello.text
+2023-11-08 10.08:57.249065106 +0530

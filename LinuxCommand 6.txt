@@ -1,0 +1,7 @@
+If want to list all the users with sudo permissions on my server through the following command:
+$ internsctl user list --sudo-only
+
+==> command1- $ sudo nano 'internctl user list --sudo-only'
+    command2- $ sudo chnod +x internctl\user\ list --sudo-only
+    command3- $ ./internctl\user\ list --sudo-only
+sudo:x:27:hrithik

@@ -1,0 +1,14 @@
+                         Section B
+1.I want to get cpu information of my server through the following command:
+$ internsctl cpu getinfo
+
+==> command 1-$ sudo nano 'lnternsctl cpu getinfo'
+    command 2-$ sudo chnod +x 'lnternsctl\ cpu\ getinfo'
+    command 3-$ lnternsctl cpu getinfo
+
+I want to get memory information of my server through the following command:
+$ internsctl memory getinfo
+
+command1- $ sudo nano 'internsctl memory getinfo'
+command2- $ ./internsctl\memory\getinfo
+bash: ./is a directory

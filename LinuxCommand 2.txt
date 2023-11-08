@@ -1,0 +1,3 @@
+2. Each linux command has an option --help which helps the end user to understand the use
+cases via examples. Similarly if I execute internsctl --help it should provide me the
+necessary help

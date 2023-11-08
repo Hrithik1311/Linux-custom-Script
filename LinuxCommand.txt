@@ -1,0 +1,84 @@
+1. I want a manual page of command so that I can see the full documentation of the command.
+==> man internctl
+
+2. Each linux command has an option --help which helps the end user to understand the use
+cases via examples. Similarly if I execute internsctl --help it should provide me the
+necessary help
+
+
+3. I want to see version of my command by executing
+==> command 1- $ sudo nano 'internsctl'
+    command 2- $ sudo chnod +x 'internsctl'
+    command 1- $ 'internsctl' --version
+v0.1.0
+
+
+                       Section B
+1.I want to get cpu information of my server through the following command:
+$ internsctl cpu getinfo
+
+==> command 1-$ sudo nano 'lnternsctl cpu getinfo'
+    command 2-$ sudo chnod +x 'lnternsctl\ cpu\ getinfo'
+    command 3-$ lnternsctl cpu getinfo
+
+I want to get memory information of my server through the following command:
+$ internsctl memory getinfo
+
+command1- $ sudo nano 'internsctl memory getinfo'
+command2- $ ./internsctl\memory\getinfo
+bash: ./is a directory
+
+
+Part2 | Level Intermediate
+
+I want to create a new user on my server through the following command:
+$ internsctl user create <username>
+
+==> command1- $ sudo nano 'internctl user create'
+    command2- $ sudo chnod +x internctl\ user\ create
+    command3- $ . /internctl\ user\ hrithik
+
+
+I want to list all the regular users present on my server through the following command:
+$ internsctl user list
+
+==> command1- $ sudo nano 'internctl user list'
+    command2- $ sudo chnod +x 'internctl\ user\ list'
+    command3- $ ./internctl\ user\ list'
+
+
+If want to list all the users with sudo permissions on my server through the following command:
+$ internsctl user list --sudo-only
+
+==> command1- $ sudo nano 'internctl user list --sudo-only'
+    command2- $ sudo chnod +x internctl\user\ list --sudo-only
+    command3- $ ./internctl\user\ list --sudo-only
+sudo:x:27:hrithik
+
+
+Part3 | Advanced Level
+By executing below command I want to get some information about a file
+$ internsctl file getinfo <file-name>
+
+==> $ ./internsctl\file\getinfo hello.text
+-rw=r==r--1 root root 8 nov hello.txt
+
+    $ ./internsctl\file\getinfo -5 hello.text
+9 hello.txt
+ 
+     $ ./internsctl\file\getinfo -p hello.text
+-rw-r--r--
+     
+      $ ./internsctl\file\getinfo -o hello.text
+root
+
+      $ sudo./internsctl\file\getinfo m hello.text
+2023-11-08 10.08:57.249065106 +0530
+
+
+
+
+
+
+
+
